@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: url(https://picsum.photos/1200/1000?random=1) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+    font-size: 3rem;
+    color: wheat;
+}
+
+a{
+    color: wheat;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button-xl{
+    padding: 1rem 2rem;
+}
+
+.btn{
+    border-radius: 200px;
+    background-color: tomato;
+    border: none;
+}
+hr{
+    border-color: orangered;
+    border-width: 3px;
+    max-width: 65px;
+    margin: 10px auto;
+}
+.buffer{
+    height: 5rem;
+}
